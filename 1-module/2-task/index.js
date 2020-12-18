@@ -10,7 +10,12 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-  // ваш код...
+
+  if(name.length === 0 || name.length < 4 || name.includes(" ")){
+    return false
+  }else{
+    return true
+  }
 }
 
 function sayHello() {
@@ -22,3 +27,6 @@ function sayHello() {
     print('Некорректное имя');
   }
 }
+
+
+isValid('sdsa a')
