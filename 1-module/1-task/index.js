@@ -4,7 +4,6 @@
  * @returns {number}
  */
 function factorial(n) {
-  function factorial(n) {
     let i = 1;
     while (n > 1){
       i = i * n;
@@ -13,5 +12,6 @@ function factorial(n) {
     return i
   }
 
-  factorial(3)
-}
+
+
+factorial(5)
