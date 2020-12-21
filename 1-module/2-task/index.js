@@ -9,14 +9,11 @@ function print(text) {
  * Эту функцию нужно поменять так,
  * чтобы функция sayHello работала корректно
  */
-function isValid(name) {
 
-  if(name.length === 0 || name.length < 4 || name.includes(" ")){
-    return false
-  }else{
-    return true
-  }
+function isValid(name) {
+  return (name.length === 0 || name.length < 4 || name.includes(" " ) || name === null) ? false : true
 }
+
 
 function sayHello() {
   let userName = prompt('Введите ваше имя');
@@ -29,4 +26,4 @@ function sayHello() {
 }
 
 
-isValid('sdsa a')
+
