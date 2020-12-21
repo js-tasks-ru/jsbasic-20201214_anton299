@@ -14,6 +14,3 @@ function factorial(n) {
     return count
   }
 
-
-
-factorial(5)
