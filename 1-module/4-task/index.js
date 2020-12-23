@@ -4,14 +4,9 @@
  * @returns {boolean}
  */
 function checkSpam(str) {
-    let param = str.toUpperCase()
-    if(param.includes("XXX") || param.includes('1XBET') ){
-      return true
-    }else {
-      return false
-    }
-  }
+    const param = str.toUpperCase()
+    return (param.includes("XXX") || param.includes('1XBET') )? true: false
+}
 
 
-checkSpam('1xbEt')
 
