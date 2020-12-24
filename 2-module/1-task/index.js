@@ -18,8 +18,8 @@ function sumSalary(i) {
       sum += i[key];
     }
   }
-  console.log(sum)
+  return sum
 }
 
 
-sumSalary(pr)
+

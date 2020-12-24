@@ -4,10 +4,12 @@ let calculator = {
     this.b = b;
   },
   sum: function () {
-      return this.a + this.b
+    console.log(this.a + this.b)
+      return((this.a ^ 0) === this.a && (this.b ^ 0) === this.b)?  this.a + this.b: NaN
   },
   mul: function () {
-    return this.a * this.b
+    console.log(this.a * this.b)
+    return((this.a ^ 0) === this.a && (this.b ^ 0) === this.b)? this.a * this.b: NaN
   }
 };
 
@@ -15,5 +17,4 @@ let calculator = {
 window.calculator = calculator; // делает ваш калькулятор доступным глобально
 
 
-calculator.read(2, 3)
-calculator.sum()
+

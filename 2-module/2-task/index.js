@@ -10,6 +10,3 @@ function isEmpty(obj) {
   return true
 }
 
-let list = {}
-
-isEmpty(list)
