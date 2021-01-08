@@ -5,11 +5,11 @@ let calculator = {
   },
   sum: function () {
     console.log(this.a + this.b)
-      return((this.a ^ 0) === this.a && (this.b ^ 0) === this.b)?  this.a + this.b: NaN
+      return this.a + this.b
   },
   mul: function () {
     console.log(this.a * this.b)
-    return((this.a ^ 0) === this.a && (this.b ^ 0) === this.b)? this.a * this.b: NaN
+    return this.a * this.b
   }
 };
 
